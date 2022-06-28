@@ -5,9 +5,10 @@ if number < 0:
     number1 = number % -10
 else:
     number1 = number % 10
+print('Last digit of', number, 'is', number1, end=' ')
 if number1 > 5:
-    print('Last digit of', number, 'is', number1, 'and is greater than 5')
+    print('and is greater than 5')
 elif number1 == 0:
-    print('Last digit of', number, 'is', number1, 'and is 0')
+    print('and is 0')
 else:
-    print('Last digit of', number, 'is', number1, 'and is less than 6 and not 0')
+    print('and is less than 6 and not 0')
